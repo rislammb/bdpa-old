@@ -1,0 +1,8 @@
+{
+  "name": "bdpa-old#,
+  "entry": "index.js#,
+  "version": "1.0.0",
+  "scripts": {
+    "stat": "node index.js"
+  }
+}
