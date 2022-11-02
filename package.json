@@ -4,8 +4,8 @@
   "description": "Bangladesh Diploma Pharmacist Association old",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "author": "Rayhanul Islam",
-  "license": "ISC",
+  "license": "ISC"
 }
