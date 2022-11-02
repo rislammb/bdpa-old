@@ -1,7 +1,7 @@
-const https = require("https");
+const http = require("http");
 
 const port = process.env.PORT || 5000;
-https.createServer((req, res) => {
+http.createServer((req, res) => {
 res.writeHead(200);
 res.end(`<!DOCTYPE html>
 <html lang="en">
