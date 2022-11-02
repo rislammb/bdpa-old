@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+const https = require("https");
+
+const port = process.env.PORT || 5000;
+https.createServer((req, res) => {
+res.send(`<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -29,4 +33,8 @@
       <a href="https://bdpa.netlify.app">click</a>
     </div>
   </body>
-</html>
+</html>`)
+res.end();
+},
+port
+)
