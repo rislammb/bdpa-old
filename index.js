@@ -3,7 +3,7 @@ const https = require("https");
 const port = process.env.PORT || 5000;
 https.createServer((req, res) => {
 res.writeHead(200);
-res.send(`<!DOCTYPE html>
+res.end(`<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -35,5 +35,4 @@ res.send(`<!DOCTYPE html>
     </div>
   </body>
 </html>`)
-res.end();
 }).listen(port);
